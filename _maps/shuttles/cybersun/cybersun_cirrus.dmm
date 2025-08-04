@@ -172,6 +172,14 @@
 	dir = 1
 	},
 /obj/structure/extinguisher_cabinet/directional/west,
+/obj/item/cutting_board{
+	pixel_y = -6;
+	pixel_x = -3
+	},
+/obj/item/melee/knife/kitchen{
+	pixel_y = -6;
+	pixel_x = -6
+	},
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/ccommons)
 "aP" = (
@@ -1152,17 +1160,6 @@
 	},
 /area/ship/cargo)
 "gv" = (
-/obj/structure/table/chem{
-	name = "kitchen counter"
-	},
-/obj/item/cutting_board{
-	pixel_y = -6;
-	pixel_x = -3
-	},
-/obj/item/melee/knife/kitchen{
-	pixel_y = -6;
-	pixel_x = -6
-	},
 /obj/effect/turf_decal/siding/black{
 	dir = 8
 	},
@@ -1170,6 +1167,7 @@
 	dir = 4
 	},
 /obj/machinery/light/small/directional/west,
+/obj/machinery/oven,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/ccommons)
 "gF" = (
@@ -2093,9 +2091,6 @@
 /turf/open/floor/plating,
 /area/ship/crew/ccommons)
 "nq" = (
-/obj/structure/table/chem{
-	name = "kitchen counter"
-	},
 /obj/structure/sink/chem{
 	name = "kitchen sink";
 	dir = 8;
@@ -2110,6 +2105,7 @@
 /obj/effect/turf_decal/siding/black{
 	dir = 8
 	},
+/obj/machinery/griddle,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/ccommons)
 "ny" = (
