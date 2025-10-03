@@ -3745,4 +3745,7 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "sunseeker\code\__DEFINES\mobs.dm"
+#include "sunseeker\code\modules\mob\living\carbon\human\species_types\beastkin.dm"
+#include "sunseeker\code\modules\surgery\bodyparts\species_parts\beastkin_bodyparts.dm"
 // END_INCLUDE
