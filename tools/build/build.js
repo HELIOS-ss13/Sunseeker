@@ -85,6 +85,7 @@ export const DmTarget = new Juke.Target({
     "html/**",
     "icons/**",
     "interface/**",
+    "sunseeker/**", // SUNSEEKER EDIT ADDITION - PAIN
     `${DME_NAME}.dme`,
     NamedVersionFile,
   ],
